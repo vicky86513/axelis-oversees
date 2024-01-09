@@ -35,6 +35,7 @@ const Footer = () => {
             <Link href="/about">
               <li className='py-2 text-sm'>About us</li>
             </Link>
+<<<<<<< Updated upstream
             {/* <li className='py-2 text-sm'>Work with us/ Partner with us</li>
             <li className='py-2 text-sm'>(Alumni)</li> */}
             <li className='py-2 text-sm'>Work with us</li>
@@ -43,9 +44,28 @@ const Footer = () => {
         <div>
           <h6 className='font-medium text-gray-400'>Resources</h6>
           <ul>
+=======
+            <li className='py-2 text-sm'>Work with us/ Partner with us</li>
+            <li className='py-2 text-sm'>(Alumni)</li>
+            <li className='py-2 text-sm'>Testimonials (ss)</li>
+        </ul>
+    </div>
+    <div>
+        <h6 className='font-medium text-gray-400'>Resources</h6>         
+        <ul>
+          {/* <link */}
+            <Link href="/lor_page">
+>>>>>>> Stashed changes
             <li className='py-2 text-sm'>LOR</li>
+            </Link>
+            <Link href="/sop_page">
             <li className='py-2 text-sm'>SOP</li>
+<<<<<<< Updated upstream
             {/* <li className='py-2 text-sm'>IELTS Prep Crash Course / TOEFL</li> */}
+=======
+            </Link>
+            <li className='py-2 text-sm'>IELTS Prep Crash Course / TOEFL</li>
+>>>>>>> Stashed changes
             {/* <li className='py-2 text-sm'>API Status</li> */}
           </ul>
         </div>
